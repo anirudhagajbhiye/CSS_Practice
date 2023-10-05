@@ -1,58 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body {
-            background-color: yellow;
-        }
-        .flex-container {
-            display: flex;
-            justify-content: center;
-        }
-        .card-1 {
-            text-align: center;
-            background-color: white;
-            padding: 32px;
-            margin: 14px;
-            margin-top: 32px;
-            border: 32px;
-            border-radius: 24px;
-            height: 500px;
-            width: 200px;
-        }
-        .card-2 {
-            text-align: center;
-            border: 32px;
-            border-radius: 24px;
-            padding: 32px;
-            margin: 14px;
-            margin-top: 32px;
-            background-color: white;
-            height: 500px;
-            width: 200px;
-        }
-        .card-3 {
-            text-align: center;
-            border: 32px;
-            border-radius: 24px;
-            padding: 32px;
-            margin: 14px;
-            margin-top: 32px;
-            background-color: white;
-            height: 500px;
-            width: 200px;
-        }
-    </style>
-    <body>
-        <div class="flex-container">
-            <div class="card-1">
-                <head>Pastries</head>
-            </div>
-            <div class="card-2">
-                <head>Drinks</head>
-            </div>
-            <div class="card-3">
-                <head>Snacks</head>
-            </div>
+<style>
+    body {
+        background-color: orange;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        font-size: 14;
+        font-weight: 300;
+    }
+
+    .card-1 {
+        text-align: center;
+        background-color: white;
+        padding: 32px;
+        margin: 14px;
+        margin-top: 32px;
+        border: 32px;
+        border-radius: 24px;
+        height: 500px;
+        width: 200px;
+    }
+    .card-1 header {
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+   
+    .card-2 {
+        text-align: center;
+        border: 32px;
+        border-radius: 24px;
+        padding: 32px;
+        margin: 14px;
+        margin-top: 32px;
+        background-color: white;
+        height: 500px;
+        width: 200px;
+    }
+    .card-2 header {
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .card-3 {
+        text-align: center;
+        border: 32px;
+        border-radius: 24px;
+        padding: 32px;
+        margin: 14px;
+        margin-top: 32px;
+        background-color: white;
+        height: 500px;
+        width: 200px;
+    }
+    .card-3 header {
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+</style>
+<body>
+    <div class="flex-container">
+        <div class="card-1">
+            <header>Pastries</header>
+            <p><i>Life is short, eat dessert first!</i></p><hr width="150%" color="orange">
+            <img style="height: 42px; width: 42px;" src="bread.png">
+            <p>Bread</p>
+            <ul>
+                BAGGUATE 120.00
+                BAGEL 120.00
+                ENGLISH MUFFIN 110.00
+            </ul>
+            <p>Pie</p>
+            <ul>
+                PUMPKIN PIE 350.00
+                BLUEBERRY PIE 405.00
+                RASPBERRY PIE 360.00
+            </ul>
         </div>
-    </body>
+        <div class="card-2">
+            <header>Drinks</header>
+            <p><i>Drinks from heaven!</i></p><hr width="150%" color="orange">
+            <img style="height: 42px; width: 42px;" src="coffee-cup.png">
+        </div>
+        <div class="card-3">
+            <header>Snacks</header>
+            <p><i>Snacks and bites for Delight!</i></p><hr width="150%" color="orange">
+            <img style="height: 42px; width: 42px;" src="snack.png">
+        </div>
+    </div>
+</body>
 </html>
