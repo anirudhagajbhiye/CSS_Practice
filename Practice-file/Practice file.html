@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/fb65a100f4.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        margin: 300px 62px 62px 300px;
+    }
+
+    .btn {
+        margin: 50px;
+        text-align: center;
+        font-size: 32px;
+        padding: 14px 60px 16px 14px;
+        background: linear-gradient(to top, rgba(246, 46, 113, 1) 0%, rgba(249, 171, 114, 1));
+        color: white;
+        border: 2px;
+        border-radius: 32px;
+        text-decoration: none;
+    }
+    i {
+        margin: 5px 12px 14px 12px;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes example {
+        from {left:0 px; top: 0px;}
+        to {left:10px; top: 0px;}
+    }
+    i:hover {
+    transform: translate(10px);
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    }
+</style>
+<body>
+    <a href="#" class="btn">Book Rooms<i class="fa-solid fa-arrow-right"></i></a>
+</body>
+</html>
