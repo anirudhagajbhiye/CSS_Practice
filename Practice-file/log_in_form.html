@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        background-color: rgb(38, 38, 78);
+        text-decoration: none;
+        margin-top: 14px;
+        color: white;
+        font-family: sans-serif;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .image {
+        border-radius: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 400;
+        background-color: rgb(172, 21, 21);
+        border-radius: 3px;
+        padding: 12px 124px;
+    }
+
+    select {
+        background-color: rgb(38, 38, 78);
+        text-align: center;
+        padding: 8px 24px;
+        border-radius: 4px;
+    }
+
+    option {
+        color: black;
+        background-color: white;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    input {
+        width: 400px;
+        padding: 12px 28px;
+        margin: 8px 0;
+        display: inline-block;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input:hover {
+        border-color: rgb(74, 74, 232);
+    }
+
+    .btn-1 {
+        background-color: rgb(74, 74, 232);
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 4px;
+        padding: 16px 170px 16px 170px;
+    }
+
+    .link:hover {
+        color: rgb(74, 74, 232);
+    }
+
+    footer {
+        float: inline-end;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+</style>
+<body>
+    <div class="flex-container">
+        <a class="image" href="img"><img width="120px" height="120px" src="unnamed.jpg"></a>
+        <h1>Log in to continue.</h1>
+        <select id="country" name="country">
+            <option value="au">Australia</option>
+            <option value="ca">Canada</option>
+            <option value="eu">Europe</option>
+            <option value="ap">Asia Pacific</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <form>
+            <label for="fname">Email<br>
+                <input type="text" id="fname" name=" " value=" ">
+            </label>
+        </form>
+        <a class="btn-1" href="button">Continue</a>
+        <a class="link" href="#">Forgot Password?</a>
+    </div>
+    <footer>
+        <a href="#">Privacy</a>
+        <span class="line"></span>
+        <a href="#">Terms</a>
+    </footer>
+</body>
+</html>
