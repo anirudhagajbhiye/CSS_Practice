@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  position: relative;
 }
 
 .default-header {
@@ -33,6 +34,27 @@
   color: #f7427f;
   transition: 0.2s;
 }
- /* banner section */
- 
+/* banner section */
+.flex-container-2 {
+  display: flex;
+  justify-content: center;
+}
 
+.overlay {
+  padding: 120px 0;
+}
+
+.banner-class, .overlay, .flex-container-2 {
+  background-color: linear-gradient(
+    to bottom,
+    rgb(246, 46, 113) 0%,
+    rgb(249, 171, 114) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    rgb(246, 46, 113) 0%,
+    rgb(249, 171, 114) 100%
+  );
+  opacity: 0.8;
+
+}

@@ -1,0 +1,104 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+/* card-1 */
+.card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-1, .h1 {
+    font-size: 14px;
+}
+
+.card-1, .p-1 {
+    font-size: 8px;
+}
+
+/* card-2 */
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-2, .h2 {
+    font-size: 14px;
+
+}
+
+.card-2, .p-2 {
+    font-size: 8px;
+}
+
+/* card-3 */
+
+.card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-3, .h3 {
+    font-size: 14px;
+
+}
+
+.card-3, .p-3 {
+    font-size: 8px;
+}
+
+/* card-4 */
+
+.card-4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+}
+
+.card-4, .h4 {
+    font-size: 14px;
+
+}
+
+.card-4, .p-4 {
+    font-size: 8px;
+}
+
+/* card-5 */
+
+.card-5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-5, .h5 {
+    font-size: 14px;
+
+}
+
+.card-5, .p-5 {
+    font-size: 8px;
+}
+
+/* card-6 */
+
+.card-6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+}
+
+.card-6, .h6 {
+    font-size: 14px;
+
+}
+
+.card-6, .p-6 {
+    font-size: 8px;
+}
+
+button {
+    background-color: grey;
+    font-family: sans-serif;
+    color: white;
+    width: 82px;
+    height: 32px;
+}
