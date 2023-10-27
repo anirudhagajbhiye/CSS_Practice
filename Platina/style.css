@@ -1,12 +1,11 @@
-/* header section */
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
   position: relative;
 }
-
+/* header section */
 .default-header {
   background-color: white;
   padding: 20px 206px;
@@ -38,23 +37,23 @@
 .flex-container-2 {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.banner-area {
+  position: fixed;
+  padding-top: 32px;
+  z-index: -1;
 }
 
 .overlay {
-  padding: 120px 0;
-}
-
-.banner-class, .overlay, .flex-container-2 {
-  background-color: linear-gradient(
-    to bottom,
-    rgb(246, 46, 113) 0%,
-    rgb(249, 171, 114) 100%
-  );
-  background-image: linear-gradient(
-    to top,
-    rgb(246, 46, 113) 0%,
-    rgb(249, 171, 114) 100%
-  );
+  background: url("Bedroom-table-chair-bed-window-bright_1920x1200.jpg")no-repeat;
+  background-image: linear-gradient(to top, #f62e71 0%, #f9ab72 100%);
   opacity: 0.8;
-
 }
+
+
+
+
+
+
+
