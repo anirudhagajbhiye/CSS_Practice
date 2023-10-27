@@ -39,21 +39,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .banner-area {
   position: fixed;
-  padding-top: 32px;
-  z-index: -1;
+  margin-top: 32px;
+  z-index: 1;
 }
 
-.overlay {
-  background: url("Bedroom-table-chair-bed-window-bright_1920x1200.jpg")no-repeat;
-  background-image: linear-gradient(to top, #f62e71 0%, #f9ab72 100%);
-  opacity: 0.8;
+.banner-area .overlay{
+  background: url("Bedroom-table-chair-bed-window-bright_1920x1200.jpg") no-repeat;
 }
-
-
-
-
-
-
-
