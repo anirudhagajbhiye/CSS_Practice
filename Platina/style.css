@@ -1,10 +1,11 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  position: relative;
+  font-family:"Poppins", sans-serif;
 }
+
 /* header section */
 .default-header {
   background-color: white;
@@ -22,7 +23,6 @@
 
 .nav-bar a {
   color: black;
-  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -34,18 +34,38 @@
   transition: 0.2s;
 }
 /* banner section */
+.banner-area .overlay {
+  background: linear-gradient(
+      to top,
+      rgba(246, 46, 113, 0.8) 0%,
+      rgba(249, 171, 114, 0.5) 100%
+    ),
+    url(Bedroom-table-chair-bed-window-bright_1920x1200.jpg) no-repeat fixed;
+  background-size: cover;
+  padding-top: 300px;
+  height: 750px;
+}
 .flex-container-2 {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.banner-area {
-  position: fixed;
-  margin-top: 32px;
-  z-index: 1;
+.banner-content h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.15em;
 }
 
-.banner-area .overlay{
-  background: url("Bedroom-table-chair-bed-window-bright_1920x1200.jpg") no-repeat;
+.banner-content .btn-1 {
+  margin-top: 30px;
+  color: #222;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid transparent;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 12px 28px;
+  transition: all 0.3s ease 0s;
 }
