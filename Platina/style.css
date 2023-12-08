@@ -472,12 +472,17 @@ p6 {
   font-weight: 300;
 }
 .social-media {
-  margin-left: 50px;
+  max-width: 25%;
 }
 .albums {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+}
+.albums li img {
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
 }
 .feedback {
   margin-right: 100px;
