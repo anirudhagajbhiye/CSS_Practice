@@ -490,6 +490,7 @@ ul {
 .notification {
   display: flex;
   flex-direction: row;
+  margin-top: 16px;
 }
 input[type="email"] {
   border: none;
@@ -500,6 +501,9 @@ input[type="email"] {
   padding: 12px 14px;
   border-radius: 0;
   font-size: 12px;
+}
+input[type="email"]:focus {
+  outline: none;
 }
 .btn-4 {
   background: linear-gradient(
@@ -516,4 +520,29 @@ input[type="email"] {
   color: #fff;
   margin: 0 12px;
   font-size: 22px;
+}
+.app-area {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.app-area a {
+  padding-right: 25px;
+}
+.app-area i {
+  font-size: 14px;
+  color: #cccccc;
+}
+i:hover {
+  color: rgb(238, 121, 160);
+}
+.copyright-area p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 80px;
+}
+.copyright-area i, a {
+  color: #f7427f;
+  font-size: unset;
 }
